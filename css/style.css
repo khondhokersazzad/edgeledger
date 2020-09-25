@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	font-family: 'Roboto',sans-serif;
+	line-height: 1.4;
+
+}
+
+p{
+	margin: 0.75rem 0;
+}
+
+				/*Utility*/
+.container{
+	width: 1000px;
+	margin: auto;
+	padding: 0 2rem;
+	overflow: hidden;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-primary{
+	color: #93cb52;
+}
+
+.bg-light{
+	
+	
+}
+
+.l-heading{
+	font-size: 4rem;
+	margin-bottom: 0.75rem;
+	line-height: 1.1;
+}
+
+.m-heading{
+	font-size: 2rem;
+	margin-bottom: 0.75rem;
+	line-height: 1.1;
+}
+
+.lead{
+	font-size: 1.3rem;
+	margin-bottom: 2rem;
+
+}
+
+.btn{
+	text-decoration: none;
+	color: #fff;
+	background: #93cb52;
+	border-radius: 5px;
+	padding: 0.5rem 2rem; 
+	border: none;
+
+}
+
+.btn:hover{
+	background: #7ab436;
+}
+
+.py-1{padding: 1.5rem 0;}
+.py-2{padding: 2rem 0;}
+.py-3{padding: 3rem 0;}
+
+				/*NavBar*/
+#navbar{
+	background: #333;
+	color: #fff;
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	z-index: 1;
+	padding: 1rem;
+
+
+}
+
+
+#navbar ul{
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+
+
+#navbar ul a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0.75rem;
+	margin: 0 0.25rem;
+
+}
+
+#navbar ul li a:hover{
+	background: #93cb52;
+	border-radius: 5px;
+
+}
+
+
+              /*showcase area*/
+#showcase{
+	background: url(../img/showcase.jpg) 
+	no-repeat center center/cover;
+	height: 100vh;
+	/*margin-top: -100px;*/
+	color: #fff;
+
+}
+
+
+#showcase .showcase-content{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding: 0 2rem;
+	/*OVERLAY*/
+	position: absolute;
+	top: 65px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.4);
+
+}
+
+ 			/*What we do*/
+
+#what .items-box{
+	display: flex;
+	margin: 0 2rem;
+	text-align: center;
+
+}
+
+#what .items-box .item{
+	margin: 2rem 2rem;
+}
+
+#what .items-box .item i{
+	background: #93cb52;
+	border-radius: 50%;
+	padding: 1rem;
+	
+	margin-bottom: 1rem;
+
+}
+
+             /*Who we are*/
