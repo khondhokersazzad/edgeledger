@@ -33,9 +33,20 @@ p{
 	color: #93cb52;
 }
 
+.bg-primary{
+	background: #93cb52;
+	color: #fff;
+}
+
 .bg-light{
+	background: #f4f4f4;
+	color: #333;
 	
-	
+}
+
+.bg-dark{
+	background: #333;
+	color: #fff;
 }
 
 .l-heading{
@@ -56,6 +67,17 @@ p{
 
 }
 
+.list{
+	margin: 1rem 0;
+	list-style: none;
+}
+
+.list li{
+	padding: 0.4rem 0;
+	border-bottom: 1px dotted #444;
+
+}
+
 .btn{
 	text-decoration: none;
 	color: #fff;
@@ -66,6 +88,11 @@ p{
 
 }
 
+.btn-dark{
+	background: #444;
+	color: #fff;
+}
+
 .btn:hover{
 	background: #7ab436;
 }
@@ -73,6 +100,12 @@ p{
 .py-1{padding: 1.5rem 0;}
 .py-2{padding: 2rem 0;}
 .py-3{padding: 3rem 0;}
+
+.p-1{padding: 1.5rem;}
+.p-2{padding: 2rem;}
+.p-3{padding: 3rem;}
+
+
 
 				/*NavBar*/
 #navbar{
@@ -163,3 +196,64 @@ p{
 }
 
              /*Who we are*/
+#who{
+	display: flex;
+}
+
+#who div{
+	flex: 1;
+}
+
+#who .who-img{
+	background: url('../img/people.jpg') no-repeat
+	center center/cover;
+}
+
+#who .who-content{
+
+}
+
+			 /*clients*/
+
+#clients .items-box{
+	display: flex;
+	
+}
+
+#clients .items-box img{
+	width: 60%;
+	margin: auto;
+	display: block;
+
+}
+
+              /*Contact*/
+#contact{
+	display: flex;
+}
+
+#contact .contact-form,
+#contact .map{
+	flex: 1;
+}
+
+#contact .contact-form .form-group{
+	margin: 0.75rem;
+}
+
+#contact .contact-form 
+.form-group label{
+	display: block;
+
+}
+
+#contact .contact-form 
+ input,
+#contact .contact-form 
+.form-group textarea{
+	width: 100%;
+	padding: 0.5rem;
+	outline: none;
+
+}
+
